@@ -12,18 +12,42 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.katomaran.todo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.katomaran.todo",
+      "edgeToEdgeEnabled": true,
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "katomaran-todo-hackathon"
+      }
+    },
+    "scheme": "katomarantodo",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyAf_qi34e6LkOosfBGjUZW0AbkXY6ZssWE",
+          "authDomain": "katomaran-todo-hackathon.firebaseapp.com",
+          "projectId": "katomaran-todo-hackathon",
+          "storageBucket": "katomaran-todo-hackathon.firebasestorage.app",
+          "messagingSenderId": "431576034301",
+          "appId": "1:431576034301:android:22c381e5887fe8ab888794"
+        }
+      }
     }
   }
 }
