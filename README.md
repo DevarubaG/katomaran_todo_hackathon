@@ -44,7 +44,7 @@ cd katomaran_todo_hackathon
 2️ Install Dependencies
 
 npm install
-# or
+or
 yarn install
 
 3️ Set Up Firebase
